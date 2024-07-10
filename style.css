@@ -1,0 +1,154 @@
+body {
+  background-color: #272b30;
+  font-family: "Comfortaa", cursive;
+}
+
+header img {
+  max-height: 30vh;
+}
+
+nav {
+  background-color: rgb(58, 73, 123) !important;
+  border-radius: 20px;
+  margin-inline: auto;
+  margin-top: -30px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container .navbar-brand {
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 12px;
+  transition: color 0.5s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #09c;
+}
+
+.navbar-nav .nav-link.active {
+  color: #09c !important;
+}
+
+.card {
+  width: 18rem;
+  background-color: transparent !important;
+  border-radius: 10px;
+  border: solid black 0.1px;
+  overflow: hidden;
+  filter: grayscale(0.7);
+  transition: transform 0.5s, filter 0.5s 0.1s;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative; 
+  
+}
+
+
+.black-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px; 
+  background-color: black;
+}
+
+.figure {
+  margin: 0 0 1rem;
+}
+
+.card img {
+  padding: 1rem 1rem;
+}
+
+.card-body {
+  color: #fff;
+}
+
+.list-group-item {
+  background-color: transparent;
+  color: black;
+}
+
+.card-text {
+  font-size: .875em;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fst {
+  font-size: 0.75em; 
+}
+
+.list-group-item1 {
+  border-radius: 10px;
+}
+
+.card:hover .fst .list-group-item1 {
+  background-color: blue;
+  color: #fff;
+}
+
+.card:hover {
+  transform: scale(1.05); 
+}
+
+.game-card.hovered .list-group-item1 {
+  background-color: rgb(52, 52, 250) !important;
+  color: #fff;
+}
+
+.scnd .badge-color {
+  border-radius: 5px;
+  background-color: #32383e;
+  margin: auto;
+}
+.close-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1000;
+}
+
+#gameDetailDescription {
+  white-space: normal; 
+    overflow: visible;   
+}
+
+.text-white {
+  color: #fff;
+}
+
+.main {
+  padding: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.detail-info {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid black;
+  background-color: rgba(13, 202, 240, var(--bs-bg-opacity, 1)) !important;
+  color: black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
